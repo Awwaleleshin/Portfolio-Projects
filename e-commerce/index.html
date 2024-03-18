@@ -16,14 +16,72 @@
 	</head>
 	<body class="text-textColor bg-bodyColor font-lato">
 		<header>
-			<div class="bg-firstColorAlt">
-				<div>
-					<span> (+234) - 8034 - 555 - 000 </span>
-					<span> Our location </span>
+			<div
+				class="bg-firstColorAlt border-solid border-b border-firstColor py-3.5"
+			>
+				<div
+					class="container mx-auto px-3 flex items-center justify-between text-sm"
+				>
+					<div>
+						<span class="mr-2"> (+234) - 8034 - 555 - 1111 </span>
+						<span> Lagos, Nigeria </span>
+					</div>
+					<p class="text-textColorLight font-semibold">
+						Super Value Deals - Save more with coupons
+					</p>
+					<a href="login-register.html " class="text-textColor"
+						>Log In / Sign Up</a
+					>
 				</div>
-				<p>Super Value Deals - Save more with coupons</p>
-				<a href="login-register.html">Log In / Sign Up</a>
 			</div>
+
+			<!-- Navbar menu -->
+			<nav
+				class="container flex items-center justify-between mx-auto px-3 h-16 gap-x-4"
+			>
+				<a href="index.html"><img src="img/logo.svg" alt="" class="w-36" /></a>
+
+				<div id="nav-menu" class="flex items-center w-full ml-10">
+					<ul
+						class="nav-list flex items-center mr-auto gap-x-10 text-titleColor, font-bold"
+					>
+						<li class="nav-item active-link">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="shop.html" class="nav-link">Shop</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="accounts.html" class="nav-link">My Account</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="compare.html" class="nav-link">Compare</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="login-register.html" class="nav-link">Login</a>
+						</li>
+					</ul>
+
+					<div>
+						<input type="text" placeholder="Search for items..." />
+
+						<button><img src="img/search.png" alt="" /></button>
+					</div>
+				</div>
+				<div class="flex items-center">
+					<a href="wishlist.html"
+						><img src="img/icon-heart.svg" alt="" /><span>3</span></a
+					>
+
+					<a href="wishlist.html"
+						><img src="img/icon-cart.svg" alt="" /><span>3</span></a
+					>
+				</div>
+			</nav>
 		</header>
 	</body>
 </html>
