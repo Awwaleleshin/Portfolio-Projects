@@ -43,9 +43,9 @@
 
 				<div id="nav-menu" class="flex items-center w-full ml-10">
 					<ul
-						class="nav-list flex items-center mr-auto gap-x-10 text-titleColor, font-bold"
+						class="nav-list flex items-center mr-auto gap-x-10 text-titleColor, font-bold transition-all duration-200 hover:text-firstColor"
 					>
-						<li class="nav-item active-link">
+						<li class="nav-item active-link text-firstColor">
 							<a href="index.html" class="nav-link">Home</a>
 						</li>
 
@@ -66,8 +66,12 @@
 						</li>
 					</ul>
 
-					<div>
-						<input type="text" placeholder="Search for items..." />
+					<div class="w-64">
+						<input
+							class="w-full border border-solid border-borderColorAlt"
+							type="text"
+							placeholder="Search for items..."
+						/>
 
 						<button><img src="img/search.png" alt="" /></button>
 					</div>
