@@ -745,6 +745,10 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -808,6 +812,10 @@ video {
   padding: 0.625rem;
 }
 
+.p-\[0\.425rem\] {
+  padding: 0.425rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -844,6 +852,14 @@ video {
 
 .pt-\[1\.25rem\] {
   padding-top: 1.25rem;
+}
+
+.pt-\[1rem\] {
+  padding-top: 1rem;
+}
+
+.pt-\[0\.625rem\] {
+  padding-top: 0.625rem;
 }
 
 .text-center {
