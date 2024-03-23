@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.section-lg {
-    padding-block: 4rem;
+.swiper {
+    overflow: initial !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    top: -1.875rem !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: '' !important;
+}
+
+.swiper-button-prev {
+    left: initial !important;
+    right: 2.5rem !important;
+}
+
+.swiper-button-next {
+    right: 0 !important;
 }
