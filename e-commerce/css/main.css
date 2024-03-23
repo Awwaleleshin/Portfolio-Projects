@@ -699,6 +699,11 @@ video {
   cursor: pointer;
 }
 
+.scroll-py-3 {
+  scroll-padding-top: 0.75rem;
+  scroll-padding-bottom: 0.75rem;
+}
+
 .grid-cols-\[5fr\2c 7fr\] {
   grid-template-columns: 5fr 7fr;
 }
@@ -713,6 +718,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-x-10 {
@@ -795,6 +804,16 @@ video {
   background-color: hsl(129 44% 94% / var(--tw-bg-opacity));
 }
 
+.bg-containerColor {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 93% / var(--tw-bg-opacity));
+}
+
+.bg-secondColor {
+  --tw-bg-opacity: 1;
+  background-color: hsl(34 94% 87% / var(--tw-bg-opacity));
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -837,8 +856,22 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-\[0\.625rem\] {
   padding-top: 0.625rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-center {
@@ -968,6 +1001,16 @@ video {
 }
 
 .hover\:text-firstColor:hover {
+  --tw-text-opacity: 1;
+  color: hsl(176 88% 27% / var(--tw-text-opacity));
+}
+
+.active\:bg-secondColor:active {
+  --tw-bg-opacity: 1;
+  background-color: hsl(34 94% 87% / var(--tw-bg-opacity));
+}
+
+.active\:text-firstColor:active {
   --tw-text-opacity: 1;
   color: hsl(176 88% 27% / var(--tw-text-opacity));
 }
