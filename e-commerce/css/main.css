@@ -1029,6 +1029,7 @@ video {
 .action-btn {
   width: 40px;
   height: 40px;
+  line-height: 42px;
   background-color: hsl(129, 44%, 94%);
   border: 1px solid hsl(129, 36%, 85%);
   color: hsl(154, 13%, 32%);
