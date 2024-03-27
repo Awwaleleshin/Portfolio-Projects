@@ -86,6 +86,13 @@
     position: relative;
 }
 
+.action-btn::after,
+.action-btn::before {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .tab-item:not(.active-tab) {
     display: none;
 }
