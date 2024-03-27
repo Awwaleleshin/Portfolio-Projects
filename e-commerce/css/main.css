@@ -1046,6 +1046,26 @@ video {
   transform: translateX(-50%);
 }
 
+.action-btn::before {
+  content: '';
+  top: -2px;
+  border: 0.5rem solid transparent;
+  border-top-color: hsl(176, 88%, 27%);
+}
+
+.action-btn::after {
+  content: attr(aria-label);
+  bottom: 100%;
+  background-color: hsl(176, 88%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 0.68rem;
+  font-weight: 500;
+  white-space: nowrap;
+  padding-inline: 0.625rem;
+  border-radius: 0.25rem;
+  line-height: 2.58;
+}
+
 .tab-item:not(.active-tab) {
   display: none;
 }
