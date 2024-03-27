@@ -28,12 +28,6 @@
     right: 0 !important;
 }
 
-/* Poduct Active Tab */
-.products .tab-btns .active-tab {
-    background-color: hsl(34, 94%, 87%);
-    color: hsl(176, 88%, 27%);
-}
-
 .product-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -106,13 +100,37 @@
     background-color: hsl(176, 88%, 27%);
     color: hsl(0, 0%, 100%);
     font-size: 0.68rem;
-    font-weight: 500;
     white-space: nowrap;
     padding-inline: 0.625rem;
     border-radius: 0.25rem;
     line-height: 2.58;
 }
 
+.product-badge {
+    position: absolute;
+    left: 1.25rem;
+    top: 1.25rem;
+    background-color: hsl(176, 88%, 27%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.25rem 0.625rem;
+    border-radius: 2.5rem;
+    font-size: 0.68rem;
+}
+
+/* Poduct Active Tab */
+.products .tab-btns .active-tab {
+    background-color: hsl(34, 94%, 87%);
+    color: hsl(176, 88%, 27%);
+}
+
 .tab-item:not(.active-tab) {
     display: none;
+}
+
+/* Product hover */
+.product-image.hover,
+.product-action,
+.action-btn::before,
+.action-btn::after {
+    opacity: 0;
 }
