@@ -1069,6 +1069,22 @@ video {
   font-size: 0.68rem;
 }
 
+.product-badge.light-pink {
+  background-color: hsl(341, 100%, 73%);
+}
+
+.product-badge.light-green {
+  background-color: hsl(155, 20%, 67%);
+}
+
+.product-badge.light-blue {
+  background-color: hsl(202, 53%, 76%);
+}
+
+.product-badge.light-orange {
+  background-color: hsl(24, 100%, 73%);
+}
+
 /* Poduct Active Tab */
 
 .products .tab-btns .active-tab {
