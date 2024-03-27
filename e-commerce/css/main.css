@@ -1030,9 +1030,13 @@ video {
   width: 40px;
   height: 40px;
   line-height: 42px;
+  text-align: center;
+  border-radius: 50%;
   background-color: hsl(129, 44%, 94%);
   border: 1px solid hsl(129, 36%, 85%);
   color: hsl(154, 13%, 32%);
+  font-size: 0.875rem;
+  position: relative;
 }
 
 .tab-item:not(.active-tab) {
