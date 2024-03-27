@@ -133,6 +133,15 @@
     background-color: hsl(24, 100%, 73%);
 }
 
+.product-content {
+    padding: 0 1.25rem 1.125rem;
+}
+
+.product-category {
+    color: hsl(60, 1%, 56%);
+    font-size: 0.75rem;
+}
+
 /* Poduct Active Tab */
 .products .tab-btns .active-tab {
     background-color: hsl(34, 94%, 87%);
