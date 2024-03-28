@@ -35,5 +35,10 @@ tabs.forEach((tab) => {
       tabContent.classList.remove('active-tab')
     });
     target.classList.add('active-tab');
+
+    tabs.forEach((tab) => {
+      tab.classList.remove('active-tab')
   });
+  target.classList.add('active-tab');
+})
 });
