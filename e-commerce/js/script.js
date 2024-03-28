@@ -23,3 +23,17 @@ var swiperCategories = new Swiper(".category-container", {
         },
     },
 });
+
+// Product tabs
+const tabs = document.querySelectorAll('[data-target]');
+const tabContents = document.querySelectorAll('[content]');
+
+tabs.forEach((tab) => {
+  tab.addEventListener('click',() => {
+    const target = document.querySelector(tab.dataset.target);
+    tabContents.forEach((tabContent) => {
+      tabContent.classList.remove('active-tab')
+    });
+    target.classList.add('active-tab');
+  });
+});
