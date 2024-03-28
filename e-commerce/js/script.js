@@ -39,6 +39,6 @@ tabs.forEach((tab) => {
     tabs.forEach((tab) => {
       tab.classList.remove('active-tab')
   });
-  tab.classList.add('active-tab');
+      tab.classList.add('active-tab');
 })
 });
