@@ -25,8 +25,8 @@ var swiperCategories = new Swiper(".category-container", {
 });
 
 // Product tabs
-const tabs = document.querySelectorAll('[data-target]');
-const tabContents = document.querySelectorAll('[content]');
+const tabs = document.querySelectorAll('[data-target]'),
+tabContents = document.querySelectorAll('[content]');
 
 tabs.forEach((tab) => {
   tab.addEventListener('click',() => {
@@ -39,6 +39,6 @@ tabs.forEach((tab) => {
     tabs.forEach((tab) => {
       tab.classList.remove('active-tab')
   });
-  target.classList.add('active-tab');
+  tab.classList.add('active-tab');
 })
 });
