@@ -169,13 +169,13 @@
 			<!-- Products -->
 			<section class="products container mx-auto px-3 mb-6">
 				<div class="tab-btns flex gap-3 mb-8">
-					<span class="active-tab tab-btn bg-containerColor text-titleColor py-3 px-5 rounded font-leagueSpartan text-sm font-semibold cursor-pointer">Featured</span>
-					<span class="tab-btn bg-containerColor text-titleColor py-3 px-5 rounded font-leagueSpartan text-sm font-semibold cursor-pointer ">Popular</span>
-					<span class="tab-btn bg-containerColor text-titleColor py-3 px-5 rounded font-leagueSpartan text-sm font-semibold cursor-pointer ">Newly added</span>
+					<span class="active-tab tab-btn bg-containerColor text-titleColor py-3 px-5 rounded font-leagueSpartan text-sm font-semibold cursor-pointer" data-target="#featured">Featured</span>
+					<span class="tab-btn bg-containerColor text-titleColor py-3 px-5 rounded font-leagueSpartan text-sm font-semibold cursor-pointer" data-target="#popular">Popular</span>
+					<span class="tab-btn bg-containerColor text-titleColor py-3 px-5 rounded font-leagueSpartan text-sm font-semibold cursor-pointer" data-target="#newly-added">Newly added</span>
 				</div>
 
 				<div class="tab-items">
-					<div class="tab-item active-tab">
+					<div class="tab-item active-tab" content id="featured">
 						<div class="product-container">
 							<div class="product-item">
 								<div class="product-banner">
@@ -543,7 +543,7 @@
 					</div>
 
 					<!-- tab 2 -->
-					<div class="tab-item">
+					<div class="tab-item" content id="popular">
 						<div class="product-container grid grid-cols-4">
 							<div class="product-item">
 								<div class="product-banner">
@@ -911,7 +911,7 @@
 					</div>
 
 					<!-- tab 3 -->
-					<div class="tab-item">
+					<div class="tab-item" content id="newly-added">
 						<div class="product-container grid grid-cols-4">
 							<div class="product-item">
 								<div class="product-banner">
