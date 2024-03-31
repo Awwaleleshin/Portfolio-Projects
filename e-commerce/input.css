@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Swiper */
 
+/* Swiper */
 .swiper {
     overflow: initial !important;
 }
@@ -234,4 +234,14 @@
     background-color: hsl(176, 88%, 27%);
     border-color: hsl(176, 88%, 27%);
     color: hsl(0, 0%, 100%);
+}
+
+.deals-item:nth-child(1) {
+    background-image: url('../e-commerce/img/deals-1.jpg');
+    background-repeat: no-repeat;
+}
+
+.deals-item:nth-child(2) {
+    background-image: url('../e-commerce/img/deals-1.jpg');
+    background-repeat: no-repeat;
 }
