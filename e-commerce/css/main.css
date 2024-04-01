@@ -237,13 +237,12 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
-  /* 1 */
+  -webkit-appearance: button; /* For WebKit browsers */
+  appearance: button; /* Standard property */
   background-color: transparent;
-  /* 2 */
   background-image: none;
-  /* 2 */
 }
+
 
 /*
 Use the modern Firefox focus style for all focusable elements.
@@ -284,11 +283,11 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
-  /* 1 */
+  -webkit-appearance: textfield; /* For WebKit browsers */
+  appearance: textfield; /* Standard property */
   outline-offset: -2px;
-  /* 2 */
 }
+
 
 /*
 Remove the inner padding in Chrome and Safari on macOS.
@@ -424,8 +423,6 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
-  /* 2 */
 }
 
 /*
@@ -1205,7 +1202,7 @@ video {
 }
 
 .deals-item:nth-child(2) {
-  background-image: url('../e-commerce/img/deals-1.jpg');
+  background-image: url('../e-commerce/img/deals-2.png');
   background-repeat: no-repeat;
 }
 
