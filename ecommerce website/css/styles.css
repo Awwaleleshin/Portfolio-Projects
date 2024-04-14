@@ -1,4 +1,4 @@
-/* Ggogle Fonts */
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Spartan:wght@400;500;600;700&display=swap');
 
 /* CSS Reset */
@@ -64,6 +64,15 @@
   }
 }
 
+/* Base */
+input,
+textarea,
+body {
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-400);
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
