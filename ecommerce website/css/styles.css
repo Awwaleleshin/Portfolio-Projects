@@ -1,7 +1,7 @@
 /* Ggogle Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Spartan:wght@400;500;600;700&display=swap');
 
-/*=============== VARIABLES CSS ===============*/
+/* Variables */
 :root {
   --header-height: ;
 
@@ -38,7 +38,7 @@
   --weight-700: 700;
 
   /*========== Transition ==========*/
-  --transition: ;
+  --transition: cubic-bezier(0, 0, 0.05, 1);
 }
 
 /* Responsive typography */
