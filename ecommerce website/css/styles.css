@@ -1,6 +1,13 @@
 /* Ggogle Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Spartan:wght@400;500;600;700&display=swap');
 
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Variables */
 :root {
   --header-height: ;
@@ -57,7 +64,6 @@
   }
 }
 
-/*=============== BASE ===============*/
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
