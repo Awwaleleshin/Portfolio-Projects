@@ -147,6 +147,10 @@ input {
   color: var(--text-color);
 }
 
+.nav {
+  display: flex;
+}
+
 /* Active link */
 
 /*=============== HOME ===============*/
