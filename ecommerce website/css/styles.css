@@ -205,6 +205,32 @@ input {
   cursor: pointer;
 }
 
+.header-user-actions {
+  column-gap: 1.25rem;
+}
+
+.header-action-btn {
+  position: relative;
+}
+
+.header-action-btn img {
+  width: 30px;
+}
+
+.header-action-btn .count {
+  position: absolute;
+  top: -0.625rem;
+  right: -0.625rem;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: var(--tiny-font-size);
+}
+
 /* Active link */
 .active-link,
 .nav-link:hover {
