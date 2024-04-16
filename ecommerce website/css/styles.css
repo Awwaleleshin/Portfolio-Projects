@@ -115,6 +115,14 @@ input {
   padding-inline: 0.75rem;
 }
 
+.form-input {
+  border: 1px solid var(--border-color-alt);
+  padding-inline: 1rem;
+  height: 45px;
+  border-radius: 0.25rem;
+  font-size: var(--small-font-size);
+}
+
 /* Header & Nav */
 .header-top {
   background-color: var(--first-color-alt);
@@ -179,6 +187,22 @@ input {
   color: var(--title-color);
   font-weight: var(--weight-700);
   transition: all 0.2s var(--transition);
+}
+
+.header-search{
+  width: 340px;
+  position: relative;
+}
+
+.header-search .form-input {
+  width: 100%;
+}
+
+.search-btn {
+  position: absolute;
+  top: 24%;
+  right: 1.25rem;
+  cursor: pointer;
 }
 
 /* Active link */
