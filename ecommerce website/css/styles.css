@@ -120,8 +120,17 @@ input {
   gap: 1.5rem;
 }
 
+.section {
+  padding-block: 2rem;
+}
+
 .section-lg {
   padding-block: 4rem;
+}
+
+.section-title {
+  font-size: var(--h4-font-size);
+  margin-bottom: 1.5rem;
 }
 
 .form-input {
@@ -283,7 +292,7 @@ input {
   justify-self: flex-end;
 }
 
-
+/* Buttons */
 .btn {
   display: inline-block;
   background-color: var(--first-color);
@@ -304,9 +313,17 @@ input {
   color: var(--first-color);
 }
 
-/*=============== BUTTONS ===============*/
+/* Categories */
+.category-item {
+  text-align: center;
+  border: 1px solid var(--border-color);
+  padding: 0.625rem 0.625rem 1.25rem;
+  border-radius: 1.25rem;
+}
 
-/*=============== CATEGORIES ===============*/
+.section-title span {
+  color: var(--first-color);
+}
 
 /* Swiper class */
 
