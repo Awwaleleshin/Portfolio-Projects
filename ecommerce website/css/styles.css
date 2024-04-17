@@ -376,7 +376,7 @@ input {
 .tab-btns {
   display: flex;
   column-gap: 0.75rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .tab-btn {
