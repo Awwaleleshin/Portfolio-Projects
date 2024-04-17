@@ -326,6 +326,11 @@ input {
   margin-bottom: 1.25rem;
 }
 
+.category-title {
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+}
+
 .section-title span {
   color: var(--first-color);
 }
