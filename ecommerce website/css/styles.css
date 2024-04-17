@@ -298,6 +298,12 @@ input {
   font-weight: var(--weight-700);
   transition: all 0.4s var(--transition);
 }
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--first-color);
+}
+
 /*=============== BUTTONS ===============*/
 
 /*=============== CATEGORIES ===============*/
