@@ -371,9 +371,12 @@ input {
 }
 
 /* Products */
+
+
 .tab-btns {
   display: flex;
   column-gap: 0.75rem;
+  margin-bottom: 2rem;
 }
 
 .tab-btn {
@@ -385,6 +388,12 @@ input {
   font-size: var(--small-font-size);
   font-weight: var(--weight-600);
   cursor: pointer;
+}
+
+/* Active Tab */
+.tab-btn.active-tab {
+  color: var(--first-color);
+  background-color: var(--second-color);
 }
 
 .product-container {
@@ -595,7 +604,6 @@ input {
   color: hsl(0, 0%, 100%);
 }
 
-/* Active Tab */
 
 /* Product Hover */
 
