@@ -609,6 +609,14 @@ input {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.deals-item:nth-child(1) {
+  background-image: url(../img/deals-1.jpg);
+}
+
+.deals-item:nth-child(2) {
+  background-image: url(../img/deals-2.png);
+}
+
 /*=============== NEW ARRIVALS ===============*/
 
 /*=============== SHOWCASE ===============*/
