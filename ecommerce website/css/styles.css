@@ -321,6 +321,11 @@ input {
   border-radius: 1.25rem;
 }
 
+.category-img {
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
 .section-title span {
   color: var(--first-color);
 }
