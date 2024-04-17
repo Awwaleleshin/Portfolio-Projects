@@ -605,6 +605,9 @@ input {
 }
 
 /* Deals */
+.deals-container {
+  grid-template-columns: repeat(2, 1fr);
+}
 
 /*=============== NEW ARRIVALS ===============*/
 
