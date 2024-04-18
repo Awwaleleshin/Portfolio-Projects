@@ -626,6 +626,10 @@ input {
   row-gap: 1.5rem;
 }
 
+.deals-brand {
+  color: var(--first-color);
+}
+
 /*=============== NEW ARRIVALS ===============*/
 
 /*=============== SHOWCASE ===============*/
