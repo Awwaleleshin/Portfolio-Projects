@@ -644,6 +644,15 @@ input {
   line-height: 1.3;
 }
 
+.deals-price .new-price,
+.deals-price .old-price {
+  font-size: var(--large-font-size);
+}
+
+.deals-price .new-price {
+  color: hsl(352, 100%, 60%);
+}
+
 /*=============== NEW ARRIVALS ===============*/
 
 /*=============== SHOWCASE ===============*/
