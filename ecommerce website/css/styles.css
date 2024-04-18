@@ -632,6 +632,11 @@ input {
   margin-bottom: 0.25rem;
 }
 
+.deals-category {
+ font-family: var(--second-font); 
+ font-size: var(--small-font-size);
+}
+
 /*=============== NEW ARRIVALS ===============*/
 
 /*=============== SHOWCASE ===============*/
