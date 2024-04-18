@@ -8,7 +8,7 @@
 
 /*=============== IMAGE GALLERY ===============*/
 
-// Swiper categories
+// Swiper Categories
 var swiperCategories = new Swiper(".categories-container", {
     spaceBetween: 24,
     loop:true,
@@ -34,8 +34,33 @@ var swiperCategories = new Swiper(".categories-container", {
     },
 });
 
-/*=============== SWIPER PRODUCTS ===============*/
+// Swipper Products
+var swiperProducts = new Swiper(".new-container", {
+  spaceBetween: 24,
+  loop:true,
+  
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 
+  breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+      1400: {
+        slidesPerView: 4,
+        spaceBetween: 24,
+      },
+  },
+});
+
+// Product Tabs
 const tabs = document.querySelectorAll('[data-target]'),
 tabContents = document.querySelectorAll('[content]');
 
