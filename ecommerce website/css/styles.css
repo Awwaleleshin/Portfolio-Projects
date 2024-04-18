@@ -628,6 +628,8 @@ input {
 
 .deals-brand {
   color: var(--first-color);
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.25rem;
 }
 
 /*=============== NEW ARRIVALS ===============*/
