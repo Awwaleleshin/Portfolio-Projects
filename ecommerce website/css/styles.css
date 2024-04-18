@@ -617,6 +617,15 @@ input {
   background-image: url(../img/deals-2.png);
 }
 
+.deals-item {
+  padding: 3rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
 /*=============== NEW ARRIVALS ===============*/
 
 /*=============== SHOWCASE ===============*/
