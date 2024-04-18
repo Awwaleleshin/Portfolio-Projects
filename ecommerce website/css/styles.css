@@ -680,6 +680,10 @@ input {
   top: 20%;
 }
 
+.countdown-amount:last-child::after {
+  content: '';
+}
+
 .countdown-period {
   background-color: var(--first-color);
   color: var(--body-color);
