@@ -313,6 +313,11 @@ input {
   color: var(--first-color);
 }
 
+.btn-md {
+  font-family: var(--body-font);
+  height: 45px;
+  line-height: 42px;
+}
 /* Categories */
 .categories {
   overflow: hidden;
@@ -692,6 +697,11 @@ input {
   font-size: var(--small-font-size);
   text-align: center;
   display: block;
+}
+
+.deals-btn .btn {
+  background-color: transparent;
+  color: var(--first-color);
 }
 
 /*=============== NEW ARRIVALS ===============*/
