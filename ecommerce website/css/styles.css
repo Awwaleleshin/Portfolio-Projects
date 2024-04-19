@@ -764,6 +764,11 @@ input {
 }
 
 /* Newsletter */
+.newsletter-container {
+  grid-template-columns: repeat(2, 3.5fr) 5fr;
+  align-items: center;
+  column-gap: 3rem;
+}
 
 /*=============== FOOTER ===============*/
 
