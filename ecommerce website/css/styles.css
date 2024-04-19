@@ -718,8 +718,22 @@ input {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.showcase-wrapper {
+.showcase-wrapper .section-title {
+  font-size: var(--normal-font-size);
+  border-bottom: 1px solid var(--border-color-alt);
+  padding-bottom: 0.75px;
+  margin-bottom: 2rem;
+  position: relative;
+}
 
+.showcase-wrapper .section-title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1.3px;
+  width: 50px;
+  height: 2px;
+  background-color: var(--first-color);
 }
 
 /*=============== NEWSLETTER ===============*/
