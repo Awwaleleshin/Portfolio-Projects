@@ -188,11 +188,11 @@ input {
 }
 
 .nav-logo-img {
-  width: 150px;
+  width: 120px;
 }
 
 .nav-menu {
-  width: 100%;
+  flex-grow: 1;
   margin-left: 2.5rem;
 }
 
@@ -232,7 +232,7 @@ input {
 }
 
 .header-action-btn img {
-  width: 30px;
+  width: 24px;
 }
 
 .header-action-btn .count {
