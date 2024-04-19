@@ -754,6 +754,15 @@ input {
   width: calc(100% - 110px);
 }
 
+.showcase-title {
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-500);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.5rem;
+}
+
 /*=============== NEWSLETTER ===============*/
 
 /*=============== FOOTER ===============*/
