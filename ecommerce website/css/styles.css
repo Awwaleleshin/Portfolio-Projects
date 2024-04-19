@@ -736,6 +736,16 @@ input {
   background-color: var(--first-color);
 }
 
+.showcase-item {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+.showcase-item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
 /*=============== NEWSLETTER ===============*/
 
 /*=============== FOOTER ===============*/
