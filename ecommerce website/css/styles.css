@@ -714,6 +714,13 @@ input {
 }
 
 /* Showcase */
+.showcase-container {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.showcase-wrapper {
+
+}
 
 /*=============== NEWSLETTER ===============*/
 
