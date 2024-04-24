@@ -871,6 +871,19 @@ input {
   margin-block: 1rem 1.25rem;
 }
 
+.footer-link {
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  margin-bottom: 1rem;
+  display: block;
+  transition: all 0.3s var(--transition);
+}
+
+.footer-link:hover {
+  color: var(--first-color);
+  margin-left: 0.25rem;
+}
+
 /*=============== BREADCRUMBS ===============*/
 
 /*=============== SHOP ===============*/
