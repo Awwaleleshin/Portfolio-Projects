@@ -891,6 +891,12 @@ input {
   border-top: 1px solid var(--border-color-alt);
 }
 
+.copyright,
+.designer {
+  color: var(--text-color-light);
+  font-size: var(--small-font-size);
+}
+
 /*=============== BREADCRUMBS ===============*/
 
 /*=============== SHOP ===============*/
