@@ -829,6 +829,16 @@ input {
 }
 
 /* Footer */
+.footer-container {
+  grid-template-columns: 4.5fr repeat(2, 2fr) 3.5fr;
+  padding-block: 2.5rem;
+}
+
+.footer-subtitle {
+  color: var(--text-color-light);
+  font-size: var(--small-font-size);
+  margin-block: 1.25rem 0.625rem;
+}
 
 /*=============== BREADCRUMBS ===============*/
 
