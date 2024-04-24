@@ -848,7 +848,23 @@ input {
   margin-bottom: 0.25rem;
 }
 
+.footer-description span {
+  font-weight: var(--weight-600);
+}
 
+.footer-social .footer-subtitle {
+  margin-top: 1.875rem;
+}
+
+.footer-social-links {
+  display: flex;
+  column-gap: 0.25rem;
+}
+
+.footer-social-icon {
+  width: 20px;
+  opacity: 0.7;
+}
 
 /*=============== BREADCRUMBS ===============*/
 
