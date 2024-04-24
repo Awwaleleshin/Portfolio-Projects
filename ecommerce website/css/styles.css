@@ -834,11 +834,21 @@ input {
   padding-block: 2.5rem;
 }
 
+.footer-logo-img {
+  width: 120px;
+}
+
 .footer-subtitle {
   color: var(--text-color-light);
   font-size: var(--small-font-size);
   margin-block: 1.25rem 0.625rem;
 }
+
+.footer-description {
+  margin-bottom: 0.25rem;
+}
+
+
 
 /*=============== BREADCRUMBS ===============*/
 
