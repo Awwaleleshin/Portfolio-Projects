@@ -898,6 +898,20 @@ input {
 }
 
 /* Breadcrumbs */
+.breadcrumb {
+  background-color: var(--container-color);
+  padding-block: 1.5rem;
+}
+
+.breadcrumb-list {
+  display: flex;
+  column-gap: 0.75rem;
+}
+
+.breadcrumb-link {
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+}
 
 /*=============== SHOP ===============*/
 
