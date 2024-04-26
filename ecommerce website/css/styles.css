@@ -942,6 +942,17 @@ input {
   transition: all 0.15s var(--transition);
 }
 
+.pagination-link.active, 
+.pagination-link:hover {
+  background-color: var(--first-color);
+  color: var(--body-color);
+}
+
+.pagination-link.icon {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
 /*=============== DETAILS ===============*/
 
 /*=============== DETAILS INFO & REVIEWS ===============*/
