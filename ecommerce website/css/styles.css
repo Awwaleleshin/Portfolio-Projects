@@ -914,6 +914,14 @@ input {
 }
 
 /* Shops */
+.total-products {
+  margin-bottom: 2.5rem;
+}
+
+.total-products span {
+  color: var(--first-color);
+  font-weight: var(--weight-600);
+}
 
 /*=============== DETAILS ===============*/
 
