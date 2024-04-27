@@ -1006,6 +1006,31 @@ input {
   margin-block: 1rem 2rem;
 }
 
+.list-item,
+.meta-list {
+  font-size: var(--small-font-size);
+  margin-bottom: 0.75rem;
+}
+
+.details-color-title,
+.details-size-title {
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-600);
+}
+
+.color-list,
+.size-list {
+  display: flex;
+  column-gap: 0.25rem;
+}
+
+.color-link {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: block;
+}
+
 /*=============== DETAILS INFO & REVIEWS ===============*/
 
 /*=============== CART ===============*/
