@@ -953,6 +953,8 @@ input {
   border-bottom-right-radius: 50%;
 }
 
+/* Details */
+
 .details-container {
   grid-template-columns: 5.5fr 6.5fr;
   column-gap: 0.625rem;
