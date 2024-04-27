@@ -972,6 +972,40 @@ input {
   cursor: pointer;
 }
 
+.details-title {
+  font-size: var(--h2-font-size);
+}
+
+.details-brand {
+  font-size: var(--small-font-size);
+  margin-block: 1rem;
+}
+
+.details-brand span {
+  color: var(--first-color);
+}
+
+.details-price {
+  border-top: 1px solid var(--border-color-alt);
+  border-bottom: 1px solid var(--border-color-alt);
+  padding-block: 1rem;
+  display: flex;
+  column-gap: 1rem;
+}
+
+.details-price .new-price {
+  font-size: var(--h2-font-size);
+}
+
+.details-price .old-price {
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-500);
+}
+
+.short-description {
+  margin-block: 1rem 2rem;
+}
+
 /*=============== DETAILS INFO & REVIEWS ===============*/
 
 /*=============== CART ===============*/
