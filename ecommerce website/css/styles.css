@@ -1077,6 +1077,11 @@ input {
   border-radius: 0.25rem;
 }
 
+.details-action-btn {
+  line-height: 40px;
+  padding-inline: 0.75rem;
+}
+
 /*=============== DETAILS INFO & REVIEWS ===============*/
 
 /*=============== CART ===============*/
