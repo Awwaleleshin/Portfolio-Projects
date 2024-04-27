@@ -953,7 +953,9 @@ input {
   border-bottom-right-radius: 50%;
 }
 
-/*=============== DETAILS ===============*/
+.details-container {
+  grid-template-columns: 5.5fr 6.5fr;
+}
 
 /*=============== DETAILS INFO & REVIEWS ===============*/
 
