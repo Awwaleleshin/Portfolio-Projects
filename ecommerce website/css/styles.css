@@ -955,6 +955,19 @@ input {
 
 .details-container {
   grid-template-columns: 5.5fr 6.5fr;
+  column-gap: 0.625rem;
+}
+
+.details-img {
+  margin-bottom: 0.5rem;
+}
+
+.details-small-images {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.details-small-img {
+  cursor: pointer;
 }
 
 /*=============== DETAILS INFO & REVIEWS ===============*/
