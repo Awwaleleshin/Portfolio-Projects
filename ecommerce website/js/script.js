@@ -7,6 +7,18 @@
 /* Validate if constant exists */
 
 // Image Gallery
+function imgGallery () {
+  const mainImg = document.querySelector('.details-img'),
+  smallImg = document.querySelectorAll('.details-small-img');
+
+  smallImg.forEach((img) => {
+    img.addEventListener('click', function() {
+      mainImg.src = this.src;
+    });
+  });
+}
+
+imgGallery();
 
 // Swiper Categories
 var swiperCategories = new Swiper(".categories-container", {
