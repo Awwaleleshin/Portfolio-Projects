@@ -6,7 +6,7 @@
 /*===== Hide Show =====*/
 /* Validate if constant exists */
 
-/*=============== IMAGE GALLERY ===============*/
+// Image Gallery
 
 // Swiper Categories
 var swiperCategories = new Swiper(".categories-container", {
