@@ -44,7 +44,7 @@
   --weight-600: 600;
   --weight-700: 700;
 
-  /*========== Transition ==========*/
+  /* Transition */
   --transition: cubic-bezier(0, 0, 0.05, 1);
 }
 
@@ -106,6 +106,11 @@ input {
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 /* Reusable CSS Classes */
@@ -386,8 +391,6 @@ input {
 }
 
 /* Products */
-
-
 .tab-btns {
   display: flex;
   column-gap: 0.75rem;
@@ -1118,6 +1121,21 @@ input {
 
 .details-tab-content:not(.active-tab) {
   display: none;
+}
+
+.info-table tr th,
+.info-table tr td {
+  border: 1px solid var(--border-color-alt);
+  padding: 0.625rem 1.25rem;
+}
+
+.info-table tr th {
+  font-weight: var(--weight-500);
+  text-align: left;
+}
+
+.info-table tr td {
+  color: var(--text-color-light);
 }
 
 /*=============== CART ===============*/
