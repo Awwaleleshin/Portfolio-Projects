@@ -1138,6 +1138,19 @@ table {
   color: var(--text-color-light);
 }
 
+.reviews-container {
+  padding-bottom: 3rem;
+  row-gap: 1.25rem;
+}
+
+.review-single {
+  border-bottom: 1px solid var(--border-color-alt);
+  padding-bottom: 1.25rem;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 1.5rem;
+}
+
 /*=============== CART ===============*/
 
 /*=============== CART OTHERS ===============*/
