@@ -146,6 +146,27 @@ table {
   font-size: var(--small-font-size);
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.form {
+  row-gap: 1rem;
+}
+
+.form-group {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.textarea {
+  height: 200px;
+  padding-block: 1rem;
+  resize: none;
+}
+
 /* Header & Nav */
 .header-top {
   background-color: var(--first-color-alt);
@@ -1181,6 +1202,15 @@ table {
 .review-rating,
 .review-date {
   font-size: var(--small-font-size);
+}
+
+.review-form-title {
+  font-size: var(--large-font-size);
+  margin-bottom: 1rem;
+}
+
+.rate-product {
+  margin-bottom: 2rem;
 }
 
 /*=============== CART ===============*/
