@@ -1151,6 +1151,16 @@ table {
   column-gap: 1.5rem;
 }
 
+.review-single:last-child {
+  padding-bottom: 3rem;
+}
+
+.review-img {
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
 /*=============== CART ===============*/
 
 /*=============== CART OTHERS ===============*/
