@@ -1099,6 +1099,18 @@ input {
 }
 
 /* Details Info & Reviews */
+.detail-tabs {
+  display: flex;
+  column-gap: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+.detail-tab {
+  font-family: var(--second-font);
+  font-size: var(--large-font-size);
+  font-weight: var(--weight-600);
+  cursor: pointer;
+}
 
 /*=============== CART ===============*/
 
