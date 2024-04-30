@@ -1161,6 +1161,28 @@ table {
   margin-bottom: 0.5rem;
 }
 
+.review-title {
+  font-size: var(--tiny-font-size);
+}
+
+.review-data {
+  width: calc(100% - 94px);
+}
+
+.review-description {
+  margin-bottom: 0.5rem;
+}
+
+.review-rating {
+  color: hsl(42, 100%, 50%);
+  margin-bottom: 0.25rem;
+}
+
+.review-rating,
+.review-date {
+  font-size: var(--small-font-size);
+}
+
 /*=============== CART ===============*/
 
 /*=============== CART OTHERS ===============*/
