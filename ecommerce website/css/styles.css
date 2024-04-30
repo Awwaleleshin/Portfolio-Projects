@@ -1112,6 +1112,14 @@ input {
   cursor: pointer;
 }
 
+.detail-tab.active-tab {
+  color: var(--first-color);
+}
+
+.details-tab-content:not(.active-tab) {
+  display: none;
+}
+
 /*=============== CART ===============*/
 
 /*=============== CART OTHERS ===============*/
