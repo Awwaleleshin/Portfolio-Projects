@@ -1339,6 +1339,22 @@ table {
   align-items: center;
 }
 
+.cart-total {
+  border: 1px solid var(--border-color-alt);
+  border-radius: 0.25rem;
+  padding: 1.75rem;
+}
+
+.cart-total-table {
+  margin-bottom: 1rem;
+}
+
+.cart-total-table tr td {
+  border: 1px solid var(--border-color-alt);
+  padding: 0.75rem 0.5rem;
+  width: 50%;
+}
+
 /*=============== CART OTHERS ===============*/
 
 /*=============== WISHLIST ===============*/
