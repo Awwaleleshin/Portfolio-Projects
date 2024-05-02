@@ -1218,9 +1218,9 @@ table {
   border: 1px solid var(--border-color-alt);
 }
 
-.table tr:last-child {
+/* .table tr:last-child {
   border-bottom: 1px solid var(--border-color-alt);
-}
+} */
 
 .table tr th:nth-child(1),
 .table tr td:nth-child(1) {
@@ -1250,6 +1250,10 @@ table {
 .table tr th:nth-child(6),
 .table tr td:nth-child(6) {
   width: 152px;
+}
+
+.table-img {
+  width: 80px;
 }
 
 /*=============== CART OTHERS ===============*/
