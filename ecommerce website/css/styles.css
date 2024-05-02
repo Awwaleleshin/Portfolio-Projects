@@ -1319,6 +1319,10 @@ table {
   z-index: 10;
 }
 
+.form-btn .btn {
+  cursor: pointer;
+}
+
 .cart-group {
   grid-template-columns: repeat(2, 1fr);
   align-items: flex-start;
@@ -1354,6 +1358,16 @@ table {
   padding: 0.75rem 0.5rem;
   width: 50%;
 }
+
+.cart-total-title {
+  font-size: var(--small-font-size);
+}
+
+.cart-total-price {
+  color: var(--first-color);
+  font-weight: var(--weight-700);
+}
+
 
 /*=============== CART OTHERS ===============*/
 
