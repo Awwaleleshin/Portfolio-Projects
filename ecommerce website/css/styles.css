@@ -1214,17 +1214,22 @@ table {
 }
 
 /* Cart */
+.table-container {
+  overflow-x: auto
+}
+
+.table {
+  table-layout: fixed;
+  margin-bottom: 2rem;
+}
+
 .table tr {
   border: 1px solid var(--border-color-alt);
 }
 
-/* .table tr:last-child {
-  border-bottom: 1px solid var(--border-color-alt);
-} */
-
 .table tr th:nth-child(1),
 .table tr td:nth-child(1) {
-  width: 216px;
+  width: 214px;
 }
 
 .table tr th:nth-child(2),
@@ -1254,6 +1259,33 @@ table {
 
 .table-img {
   width: 80px;
+}
+
+.table tr th,
+.table tr td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.table-title,
+.table-decription,
+.table-price,
+.table-subtotal,
+.table-trash {
+  font-size: var(--small-font-size);
+}
+
+.table-title {
+  color: var(--first-color);
+}
+
+.table-decription {
+  max-width: 250px;
+  margin-inline: auto;
+}
+
+.table-trash {
+  color: var(--text-color-light);
 }
 
 /*=============== CART OTHERS ===============*/
