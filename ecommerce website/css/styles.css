@@ -1288,6 +1288,7 @@ table {
 
 .table-trash {
   color: var(--text-color-light);
+  cursor: pointer;
 }
 
 .cart-actions {
