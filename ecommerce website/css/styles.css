@@ -1271,11 +1271,13 @@ table {
 .table-decription,
 .table-price,
 .table-subtotal,
-.table-trash {
+.table-trash,
+.table-stock {
   font-size: var(--small-font-size);
 }
 
-.table-title {
+.table-title,
+.table-stock {
   color: var(--first-color);
 }
 
