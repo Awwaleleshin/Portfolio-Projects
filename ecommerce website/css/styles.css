@@ -1377,7 +1377,50 @@ table {
 /*=============== WISHLIST ===============*/
 
 /* Checkout */
+.checkout-container {
+  grid-template-columns: repeat(2, 1fr);
+}
 
+.checkout-group:nth-child(2) {
+  border:  1px solid var(--border-color-alt);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.checkout-group .section-title {
+  font-size: var(--large-font-size);
+}
+
+.checkout-title {
+ font-size: var(--small-font-size); 
+}
+
+.order-table tr th,
+.order-table tr td {
+  border: 1px solid var(--border-color-alt);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.order-table tr th {
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+}
+
+.order-img {
+  width: 80px;
+}
+
+.table-quantity,
+.order-subtitle {
+  font-size: var(--small-font-size);
+}
+
+.order-grand-total {
+  color: var(--first-color);
+  font-size: var(--large-font-size);
+  font-weight: var(--weight-700);
+}
 /*=============== COMPARE ===============*/
 
 /* Login & Register */
