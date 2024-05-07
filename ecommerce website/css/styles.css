@@ -1421,6 +1421,27 @@ table {
   font-size: var(--large-font-size);
   font-weight: var(--weight-700);
 }
+
+.payment-methods {
+  margin-block: 2.5rem 2.75rem;
+}
+
+.payment-title {
+  margin-bottom: 1.5rem;
+}
+
+.payment-option {
+  margin-bottom: 1rem;
+}
+
+.payment-input {
+  accent-color: var(--first-color);
+}
+
+.payment-label {
+  font-size: var(--small-font-size);
+}
+
 /*=============== COMPARE ===============*/
 
 /* Login & Register */
