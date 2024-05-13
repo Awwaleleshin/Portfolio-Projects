@@ -1590,6 +1590,45 @@ color: var(--first-color);
   .header-top {
     display: none;
   }
+
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+  }
+
+  .nav-logo-img {
+    width: 116px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem 2rem;
+    background-color: var(--body-color);
+    z-index: 100;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 2rem;
+    box-shadow: 0 0 15px hsla(0%, 0%, 0%, 0.1);
+  }
+
+  .nav-list {
+    order: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: var(--large-font-size);
+  }
+
+  .header-search .form-input{
+    border-color: var(--first-color);
+  }
 }
 
 /* For medium devices */
