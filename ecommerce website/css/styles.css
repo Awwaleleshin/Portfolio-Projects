@@ -1518,6 +1518,51 @@ border: 1px solid var(--border-color-alt);
   display: none;
 }
 
+.tab-content {
+  border: 1px solid var(--border-color-alt);
+}
+
+.tab-header {
+  background-color: var(--container-color);
+  border-bottom: 1px solid var(--first-color-alt);
+  padding: 1rem;
+  font-size: var(--small-font-size);
+}
+
+.tab-body {
+  padding: 1rem;
+}
+
+.placed-order-table tr th {
+  color: var(--title-color);
+  text-align: left;
+}
+
+.placed-order-table tr th,
+.placed-order-table tr td {
+  border: 1px solid var(--border-color-alt);
+  padding: 0.5rem;
+  font-size: var(--small-font-size);
+}
+
+.view-order,
+.edit {
+color: var(--first-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: var(--small-font-size);
+  line-height: 1.5rem;
+}
+
+.city {
+  margin-bottom: 0.25rem;
+}
+
+.edit {
+  font-size: var(--small-font-size);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
