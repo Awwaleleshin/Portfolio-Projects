@@ -1564,7 +1564,7 @@ color: var(--first-color);
   font-size: var(--small-font-size);
 }
 
-/*=============== BREAKPOINTS ===============*/
+/* Breakpoints */
 /* For large devices */
 @media screen and (max-width: 1400px) {
 }
