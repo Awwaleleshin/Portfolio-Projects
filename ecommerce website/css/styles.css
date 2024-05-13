@@ -1502,11 +1502,16 @@ border: 1px solid var(--border-color-alt);
   display: flex;
   align-items: center;
   column-gap: 0.625rem;
+  cursor: pointer;
 }
 
 .account-tab.active-tab {
   background-color: var(--first-color);
   color: var(--body-color);
+}
+
+.account-tab:not(:last-child) {
+  border-bottom: 1px solid var(--border-color-alt);
 }
 
 .tab-content:not(.active-tab) {
