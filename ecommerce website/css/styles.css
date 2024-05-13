@@ -1504,6 +1504,11 @@ border: 1px solid var(--border-color-alt);
   column-gap: 0.625rem;
 }
 
+.account-tab.active-tab {
+  background-color: var(--first-color);
+  color: var(--body-color);
+}
+
 .tab-content:not(.active-tab) {
   display: none;
 }
