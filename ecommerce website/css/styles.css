@@ -1486,6 +1486,28 @@ border: 1px solid var(--border-color-alt);
 }
 
 /* Accounts */
+.accounts-container {
+  grid-template-columns: 4fr 8fr;
+}
+
+.account-tabs {
+  border: 1px solid var(--border-color-alt);
+  border-radius: 0.25rem;
+}
+
+.account-tab {
+  padding: 1rem 2rem;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: 0.625rem;
+}
+
+.tab-content:not(.active-tab) {
+  display: none;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
