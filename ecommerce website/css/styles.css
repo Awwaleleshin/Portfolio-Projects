@@ -1620,6 +1620,10 @@ color: var(--first-color);
     box-shadow: 0 0 15px hsla(0%, 0%, 0%, 0.1);
   }
 
+  .show-menu {
+    right: 0;
+  }
+
   .nav-list {
     order: 1;
     flex-direction: column;
