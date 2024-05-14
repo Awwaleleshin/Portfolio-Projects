@@ -1618,6 +1618,7 @@ color: var(--first-color);
     align-items: flex-start;
     row-gap: 2rem;
     box-shadow: 0 0 15px hsla(0%, 0%, 0%, 0.1);
+    transition: all 0.25s var(--transition);
   }
 
   .show-menu {
