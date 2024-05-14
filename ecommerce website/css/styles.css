@@ -1738,6 +1738,87 @@ color: var(--first-color);
 
 /* For medium devices */
 @media screen and (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+
+  .home-container,
+  .deals-container,
+  .checkout-container,
+  .newsletter-container,
+  .accounts-container,
+  .cart-group {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-group {
+    row-gap: 2.75rem;
+  }
+
+  .home-img {
+    justify-self: center;
+  }
+
+  .newsletter-description {
+    display: none;
+  }
+
+  .btn {
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .btn-md {
+    height: 42px;
+    line-height: 39px;
+  }
+
+  .btn-sm {
+    height: 38px;
+    line-height: 35px;
+  }
+
+  .product-container,
+  .showcase-container,
+  .footer-container,
+  .details-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .login,
+  .register {
+    padding: 1.25rem;
+  }
+
+.table tr th:nth-child(1),
+.table tr td:nth-child(1) {
+  width: 140px;
+}
+
+.table tr th:nth-child(2),
+.table tr td:nth-child(2) {
+  width: 330px;
+}
+
+.table tr th:nth-child(3),
+.table tr td:nth-child(3) {
+  width: 80px;
+}
+
+.table tr th:nth-child(4),
+.table tr td:nth-child(4) {
+  width: 160px;
+}
+
+.table tr th:nth-child(5),
+.table tr td:nth-child(5) {
+  width: 160px;
+}
+
+.table tr th:nth-child(6),
+.table tr td:nth-child(6) {
+  width: 100px;
+}
 }
 
 @media screen and (max-width: 768px) {
