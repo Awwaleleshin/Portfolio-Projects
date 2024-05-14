@@ -275,6 +275,11 @@ table {
   font-size: var(--tiny-font-size);
 }
 
+.nav-menu-top,
+.nav-toggle {
+  display: none;
+}
+
 /* Active link */
 .active-link,
 .nav-link:hover {
