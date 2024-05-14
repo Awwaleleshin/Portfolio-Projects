@@ -1,4 +1,4 @@
-/*=============== SHOW MENU ===============*/
+// Show menu
 
 /*===== Menu Show =====*/
 /* Validate if constant exists */
