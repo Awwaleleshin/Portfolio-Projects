@@ -11,8 +11,12 @@ if (navToggle) {
   });
 }
 
-/*===== Hide Show =====*/
-/* Validate if constant exists */
+// Hide show
+if (navClose) {
+  navClose.addEventListener('click', () => {
+    navMenu.classList.remove('show-menu');
+  });
+}
 
 // Image Gallery
 function imgGallery () {
