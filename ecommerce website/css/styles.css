@@ -1687,7 +1687,47 @@ color: var(--first-color);
   }
 
   .swiper-button-prev {
-    right: 36px;
+    right: 36px !important;
+  }
+
+  .account-tab {
+    padding: 0.75rem 1rem;
+  }
+
+  .checkout-group:nth-child(2) {
+    padding: 1.5rem
+  }
+
+  .details-brand {
+    margin-block: 0.75rem;
+  }
+  .details-price {
+    padding-block: 0.75rem;
+  }
+
+  .short-description {
+    margin-bottom: 1.5rem;
+  }
+
+  .details-color {
+    margin-block: 1.75rem 1.25rem;
+  }
+
+  .details-size {
+    margin-bottom: 2.25rem;
+  }
+
+  .color-link {
+    width: 22px;
+    height: 22px;
+  }
+
+  .size-link {
+    padding: 0.375rem 0.625rem;
+  }
+
+  .details-action {
+    margin-bottom: 2.75rem;
   }
 }
 
