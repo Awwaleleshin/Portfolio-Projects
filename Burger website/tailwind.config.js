@@ -16,6 +16,13 @@ module.exports = {
         darkColorLight: "#171717",
       },
     },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '1.5rem'
+      }
+    }
   },
   plugins: [],
 }
