@@ -554,7 +554,32 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .bg-red-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
+.bg-primaryColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 10 94 / var(--tw-bg-opacity));
 }
