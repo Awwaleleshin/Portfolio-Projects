@@ -834,6 +834,11 @@ section{
     position: static;
   }
 
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:ml-auto{
     margin-left: auto;
   }
@@ -850,8 +855,24 @@ section{
     width: auto;
   }
 
+  .md\:w-full{
+    width: 100%;
+  }
+
+  .md\:basis-1\/2{
+    flex-basis: 50%;
+  }
+
   .md\:flex-row{
     flex-direction: row;
+  }
+
+  .md\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .md\:gap-20{
+    gap: 5rem;
   }
 
   .md\:border-none{
@@ -861,5 +882,19 @@ section{
   .md\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:text-start{
+    text-align: start;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:h-3\/5{
+    height: 60%;
+  }
+
+  .lg\:basis-2\/5{
+    flex-basis: 40%;
   }
 }

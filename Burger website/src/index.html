@@ -102,14 +102,18 @@
 		<main>
 			<!-- Home -->
 			<section id="home">
-				<div class="container flex flex-col items-center gap-10">
-					<div class="mx-auto">
-						<img src="img/home-image.png" alt="home image" class="w-60" />
+				<div class="container flex flex-col items-center gap-10 md:flex-row">
+					<div class="mx-auto md:basis-1/2 lg:basis-2/5">
+						<img
+							src="img/home-image.png"
+							alt="home image"
+							class="w-60 md:w-full"
+						/>
 					</div>
 
-					<div class="text-center">
+					<div class="text-center md:basis-1/2 md:text-start lg:h-3/5">
 						<h1 class="home-title">HAPPY TUMMY WITH TASTY BURGERS.</h1>
-						<div class="separator mx-auto"></div>
+						<div class="separator mx-auto md:mx-0"></div>
 						<p class="paragraph">
 							Using the freshest ingredients, our chefs create gourmet burgers
 							that are juicy, flavorful, and unforgettable. From classic
@@ -118,7 +122,9 @@
 							bliss like never before. Your perfect bite awaits!
 						</p>
 
-						<div class="text-base flex items-center justify-center gap-4 py-10">
+						<div
+							class="text-base flex items-center justify-center gap-4 py-10 md:justify-start md:gap-20"
+						>
 							<div class="text-center">
 								<i
 									class="fa-solid fa-utensils text-secondaryColor text-4xl"
