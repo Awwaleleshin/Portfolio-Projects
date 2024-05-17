@@ -600,28 +600,24 @@ video {
   left: 0px;
 }
 
-.top-0{
-  top: 0px;
+.right-4{
+  right: 1rem;
 }
 
-.top-\[0\.7\]{
-  top: 0.7;
+.top-0{
+  top: 0px;
 }
 
 .top-\[0\.7rem\]{
   top: 0.7rem;
 }
 
-.right-0{
-  right: 0px;
-}
-
-.right-4{
-  right: 1rem;
-}
-
 .z-50{
   z-index: 50;
+}
+
+.ml-4{
+  margin-left: 1rem;
 }
 
 .flex{
@@ -690,6 +686,11 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .uppercase{
