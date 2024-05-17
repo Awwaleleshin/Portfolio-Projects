@@ -692,6 +692,16 @@ section{
   width: 100%;
 }
 
+@keyframes move{
+  50%{
+    transform: translateY(-1rem);
+  }
+}
+
+.animate-movingY{
+  animation: move 2s linear infinite;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
