@@ -914,6 +914,11 @@ section{
     margin-right: 0px;
   }
 
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:ml-auto{
     margin-left: auto;
   }
@@ -932,6 +937,10 @@ section{
 
   .md\:w-full{
     width: 100%;
+  }
+
+  .md\:flex-1{
+    flex: 1 1 0%;
   }
 
   .md\:basis-1\/2{
