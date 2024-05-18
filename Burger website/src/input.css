@@ -26,8 +26,13 @@
 
 @layer utilities {
     .home-title,
-    .card-title {
+    .card-title,
+    .section-title {
         @apply text-4xl font-oswald font-bold uppercase lg:text-6xl;
+    }
+
+    .section-title {
+        @apply text-3xl
     }
 
     .card-title {
