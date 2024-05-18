@@ -922,6 +922,16 @@ section{
   color: rgb(192 192 192 / var(--tw-text-opacity));
 }
 
+@keyframes move{
+  50%{
+    transform: translateY(-1rem);
+  }
+}
+
+.hover\:animate-movingY:hover{
+  animation: move 2s linear infinite;
+}
+
 .hover\:text-secondaryColor:hover{
   --tw-text-opacity: 1;
   color: rgb(255 204 0 / var(--tw-text-opacity));
