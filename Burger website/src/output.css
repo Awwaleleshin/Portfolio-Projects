@@ -1058,12 +1058,20 @@ section{
     width: 100%;
   }
 
+  .md\:w-48{
+    width: 12rem;
+  }
+
   .md\:flex-1{
     flex: 1 1 0%;
   }
 
   .md\:basis-1\/2{
     flex-basis: 50%;
+  }
+
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:flex-row{
@@ -1105,12 +1113,24 @@ section{
     height: 60%;
   }
 
+  .lg\:h-40{
+    height: 10rem;
+  }
+
+  .lg\:w-24{
+    width: 6rem;
+  }
+
   .lg\:flex-1{
     flex: 1 1 0%;
   }
 
   .lg\:basis-2\/5{
     flex-basis: 40%;
+  }
+
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:flex-row{
@@ -1123,5 +1143,9 @@ section{
 
   .lg\:gap-10{
     gap: 2.5rem;
+  }
+
+  .lg\:gap-12{
+    gap: 3rem;
   }
 }
