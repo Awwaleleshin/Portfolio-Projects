@@ -700,6 +700,10 @@ section{
   height: 3.5rem;
 }
 
+.h-40{
+  height: 10rem;
+}
+
 .h-56{
   height: 14rem;
 }
@@ -746,12 +750,12 @@ section{
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -810,12 +814,12 @@ section{
   overflow: hidden;
 }
 
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .rounded-3xl{
   border-radius: 1.5rem;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .border-b{
@@ -1050,16 +1054,24 @@ section{
     display: none;
   }
 
+  .md\:h-40{
+    height: 10rem;
+  }
+
+  .md\:w-40{
+    width: 10rem;
+  }
+
+  .md\:w-48{
+    width: 12rem;
+  }
+
   .md\:w-auto{
     width: auto;
   }
 
   .md\:w-full{
     width: 100%;
-  }
-
-  .md\:w-48{
-    width: 12rem;
   }
 
   .md\:flex-1{
@@ -1111,6 +1123,10 @@ section{
 @media (min-width: 1024px){
   .lg\:h-3\/5{
     height: 60%;
+  }
+
+  .lg\:h-32{
+    height: 8rem;
   }
 
   .lg\:h-40{
