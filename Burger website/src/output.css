@@ -716,6 +716,10 @@ section{
   width: 100%;
 }
 
+.max-w-md{
+  max-width: 28rem;
+}
+
 .flex-1{
   flex: 1 1 0%;
 }
@@ -746,6 +750,10 @@ section{
   flex-direction: column;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .items-center{
   align-items: center;
 }
@@ -768,6 +776,10 @@ section{
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]){
