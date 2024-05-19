@@ -17,3 +17,15 @@ navLink.forEach(link =>
         navMenu.classList.add('hidden')
     })
 );
+
+// Tabs
+const tabs = document.querySelectorAll('.tabs-wrap ul li')
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        tabs.forEach(tab => {
+            tab.classList.remove('active')
+        })
+        tab.classList.add('active')
+    })
+})
