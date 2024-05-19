@@ -770,16 +770,16 @@ section{
   gap: 2.5rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
 
 .gap-5{
   gap: 1.25rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
 }
 
 .space-y-1 > :not([hidden]) ~ :not([hidden]){
@@ -967,6 +967,14 @@ section{
   line-height: 1.25rem;
   --tw-text-opacity: 1;
   color: rgb(192 192 192 / var(--tw-text-opacity));
+}
+
+.tabs-wrap ul li:hover,
+.tabs-wrap ul li.active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 204 0 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @keyframes move{

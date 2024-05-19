@@ -1,3 +1,4 @@
+// Main menu
 const hamburger = document.getElementById('hamburger');
 const navMenu = document.getElementById('nav-menu');
 const closeIcon = document.getElementById('nav-close');
