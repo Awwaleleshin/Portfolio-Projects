@@ -1,3 +1,5 @@
+import jobs from '../jobs.json'
+
 const JobListings = () => {
   return (
     <section className="bg-blue-50 px-4 py-10">
