@@ -11,8 +11,6 @@ const App = () =>{
       <HomeCards />
       <JobListings />
 
-    
-
     <section className="m-auto max-w-lg my-10 px-6">
       <a
         href="jobs.html"
