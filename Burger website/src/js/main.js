@@ -146,3 +146,8 @@ const activeLink = () => {
 };
 
 window.addEventListener('scroll', activeLink)
+
+// Copyright year
+const currentYear = document.querySelector('#current-year');
+const updatedDate = new Date();
+currentYear.innerText = updatedDate.getFullYear()
