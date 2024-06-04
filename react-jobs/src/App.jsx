@@ -14,14 +14,6 @@ const router = createBrowserRouter(
 );
 
 const App = () =>{
-  return  (
-    <>
-      <Navbar />
-      <Hero />
-      <HomeCards />
-      <JobListings />
-      <ViewAllJobs />
-    </>
-  );
+  return  <RouterProvider router={router} />
 };
 export default App;
