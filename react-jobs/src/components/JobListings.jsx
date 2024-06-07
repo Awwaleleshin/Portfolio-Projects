@@ -9,8 +9,8 @@ const JobListings = ({ isHome = false}) => {
     const fetchJobs = async () => {
       try {
         const res = await fetch('http://localhost:8000/jobs');
-      const data = await res.json();
-      setJobs(data)
+        const data = await res.json();
+        setJobs(data)
       } catch (error) {
         console.log('Error fetching data', error)
       } finally {
