@@ -2,6 +2,7 @@
 import { useParams, useLoaderData } from 'react-router-dom'
 import Spinner from '../components/Spinner'
 import { FaArrowLeft } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const JoPage = () => {
     const { id } = useParams()
@@ -30,12 +31,12 @@ const JoPage = () => {
             {/* Go Back */}
         <section>
         <div className="container m-auto py-6 px-6">
-            <a
-            href="/jobs.html"
+            <Link
+            to="/jobs"
             className="text-indigo-500 hover:text-indigo-600 flex items-center"
             >
             <FaArrowLeft className=" mr-2" /> Back to Job Listings
-            </a>
+            </Link>
         </div>
         </section>
 
