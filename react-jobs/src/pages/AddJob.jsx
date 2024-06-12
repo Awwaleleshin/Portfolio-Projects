@@ -37,7 +37,7 @@ const AddJob = () => {
                 id="title"
                 name="title"
                 className="border rounded w-full py-2 px-3 mb-2"
-                placeholder="eg. Beautiful Apartment In Miami"
+                placeholder="eg. Senior React Developer"
                 required
               />
             </div>
