@@ -8,12 +8,14 @@ import HomePage from './pages/HomePage';
 import JobPage from './pages/JobPage';
 import NotFoundPage from './pages/NotFoundPage';
 import JoPage, { jobLoader } from './pages/JoPage';
+import AddJob from './pages/AddJob';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
   <Route path='/'element={<MainLayout />}>
     <Route index element={<HomePage />} />
     <Route path='jobs' element={<JobPage />} />
+    <Route path='add-job' element={<AddJob />} />
     <Route path='jobs/:id' element={<JoPage />} loader={jobLoader}/>
     <Route path='*' element={<NotFoundPage />} />
   </Route>
