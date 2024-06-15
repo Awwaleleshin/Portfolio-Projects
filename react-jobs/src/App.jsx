@@ -31,7 +31,7 @@ const router = createBrowserRouter(
     <Route path='jobs/:id' element={<JoPage />} loader={jobLoader}/>
     <Route path='*' element={<NotFoundPage />} />
   </Route>
-  );
+  )
 );
   return <RouterProvider router={router} />
 };
