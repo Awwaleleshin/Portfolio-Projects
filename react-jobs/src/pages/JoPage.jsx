@@ -4,7 +4,8 @@ import Spinner from '../components/Spinner'
 import { FaArrowLeft, FaMapMarker } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
-const JoPage = () => {
+const JoPage = ({ deleteJob }) => {
+    const navigate
     const { id } = useParams()
     const job = useLoaderData()
     // const [job, setJob] = useState(null)
@@ -25,6 +26,16 @@ const JoPage = () => {
 
     //     fetchJob()
     // }, [])
+
+    const onDeleleteClick = (jobId) => {
+        const confirm = window.confirm('Are you sure you to delete this listing')
+
+        if(!confirm) return;
+
+        deleteJob(jobId);
+
+
+    }
 
   return (
     <>
@@ -110,7 +121,7 @@ const JoPage = () => {
                     >Edit Job</Link
                 >
                 <button
-                    className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+                    onClick={() => onDeleleteClick(job.id)} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
                 >
                     Delete Job
                 </button>
