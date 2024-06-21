@@ -27,7 +27,7 @@ const JoPage = ({ deleteJob }) => {
     //     fetchJob()
     // }, [])
 
-    const onDeleleteClick = (jobId) => {
+    const onDeleteClick = (jobId) => {
         const confirm = window.confirm('Are you sure you to delete this listing')
 
         if(!confirm) return;
@@ -121,7 +121,7 @@ const JoPage = ({ deleteJob }) => {
                     >Edit Job</Link
                 >
                 <button
-                    onClick={() => onDeleleteClick(job.id)} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+                    onClick={ () => onDeleteClick(job.id)} className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
                 >
                     Delete Job
                 </button>
