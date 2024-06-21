@@ -11,6 +11,7 @@ import JoPage, { jobLoader } from './pages/JoPage';
 import AddJob from './pages/AddJob';
 
 const App = () =>{
+  // Add new job
   const addJob = async (newJob) => {
     const res = await fetch('/api/jobs', {
       method: 'POST',
