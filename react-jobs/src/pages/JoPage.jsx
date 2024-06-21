@@ -1,11 +1,11 @@
 // import { useState, useEffect } from 'react'
-import { useParams, useLoaderData } from 'react-router-dom'
+import { useParams, useLoaderData, useNavigate } from 'react-router-dom'
 import Spinner from '../components/Spinner'
 import { FaArrowLeft, FaMapMarker } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const JoPage = ({ deleteJob }) => {
-    const navigate
+    const navigate = useNavigate()
     const { id } = useParams()
     const job = useLoaderData()
     // const [job, setJob] = useState(null)
@@ -34,7 +34,7 @@ const JoPage = ({ deleteJob }) => {
 
         deleteJob(jobId);
 
-
+        navigate('/jobs')
     }
 
   return (
