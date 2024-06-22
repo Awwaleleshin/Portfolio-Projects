@@ -83,20 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "575e",
-      "title": "HTML",
-      "type": "Internship",
-      "location": "Lagos",
-      "description": "I dont know",
-      "salary": "$60K - 70K",
-      "company": {
-        "name": "data",
-        "description": "Enjoyment",
-        "contactEmail": "awwaleleshin@gmail.com",
-        "contactPhone": "08138581187"
-      }
     }
   ]
 }
