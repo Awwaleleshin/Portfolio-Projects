@@ -9,6 +9,7 @@ import JobPage from './pages/JobPage';
 import NotFoundPage from './pages/NotFoundPage';
 import JoPage, { jobLoader } from './pages/JoPage';
 import AddJob from './pages/AddJob';
+import EditJobPage from './pages/EditJobPage';
 
 const App = () =>{
   // Add new job
@@ -37,6 +38,7 @@ const router = createBrowserRouter(
     <Route index element={<HomePage />} />
     <Route path='jobs' element={<JobPage />} />
     <Route path='add-job' element={<AddJob addJobSubmit={addJob}/>} />
+    <Route path='edit-job/:id' element={<EditJobPage />} loader={jobLoader}/>
     <Route path='jobs/:id' element={<JoPage deleteJob={ deleteJob } />} loader={jobLoader}/>
     <Route path='*' element={<NotFoundPage />} />
   </Route>
