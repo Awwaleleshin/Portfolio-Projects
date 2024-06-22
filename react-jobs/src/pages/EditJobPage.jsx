@@ -2,8 +2,6 @@ import React from 'react'
 import { useParams, useLoaderData, useNavigate } from 'react-router-dom'
 
 const EditJobPage = () => {
-    const job = useLoaderData()
-
     const [title, setTitle] = useState('');
     const [type, setType] = useState('Full-Time');
     const [location, setLocation] = useState('');
@@ -14,6 +12,8 @@ const EditJobPage = () => {
     const [contactEmail, setContactEmail] = useState('');
     const [contactPhone, setContactPhone] = useState('');
     
+    const job = useLoaderData()
+
   return (
     <section className="bg-indigo-50">
       <div className="container m-auto max-w-2xl py-24">
