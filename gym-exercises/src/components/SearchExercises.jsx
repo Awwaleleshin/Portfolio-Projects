@@ -15,7 +15,7 @@ const SearchExercises = () => {
         <TextField sx={{ 
           input: { fontWeight:'700'},
           width: { lg: '800px', xs: '350px'}}} 
-          height='76px' value='search' 
+          height='76px' value={search} 
           onChange={(e) => setSearch(e.target.value.toLowerCase())} 
           placeholder='Search Exercises' type='text' />
         
@@ -26,7 +26,9 @@ const SearchExercises = () => {
             height: '56px',
             position: 'absolute',
             right: '0'
-          }}>Search</Button>
+          }}
+          onClick={handleSearch}
+          >Search</Button>
       </Box>
     </Stack>
   )
