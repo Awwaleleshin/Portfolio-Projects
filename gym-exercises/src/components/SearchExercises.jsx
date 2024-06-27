@@ -14,6 +14,7 @@ const SearchExercises = () => {
           input: { fontWeight:'700'},
           width: { lg: '1170px', xs: '350px'}}} 
           height='76px' value='' onChange={(e) => {}} placeholder='Search Exercises' type='text' />
+        <Button className='search-btn'>Search</Button>
       </Box>
     </Stack>
   )
