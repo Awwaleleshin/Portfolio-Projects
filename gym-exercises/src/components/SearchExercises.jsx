@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react'
 import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 
 const SearchExercises = () => {
+  const [search, setSearch] = useState('')
   return (
     <Stack alignItems='center' mt='37px' justifyContent='center' p='20px'>
       
-      <Typography fontWeight='700' sx={{fontSize: { lg: '44px', xs: '30px'}}} mb='50px' textAlign='center'>
+      <Typography fontWeight='700' sx={{fontSize: { lg: '44px', xs: '30px'}}} 
+        mb='50px' textAlign='center'>
         Awesome Exercises You <br /> Should Know
       </Typography>
 
@@ -13,7 +15,9 @@ const SearchExercises = () => {
         <TextField sx={{ 
           input: { fontWeight:'700'},
           width: { lg: '800px', xs: '350px'}}} 
-          height='76px' value='' onChange={(e) => {}} placeholder='Search Exercises' type='text' />
+          height='76px' value='search' 
+          onChange={(e) => setSearch(e.target.value.toLowerCase())} 
+          placeholder='Search Exercises' type='text' />
         
         <Button className='search-btn'
           sx={{bgcolor: '#FF2625', color: '#fff', textTransform:'none',
