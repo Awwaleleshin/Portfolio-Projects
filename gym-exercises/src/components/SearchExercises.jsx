@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { Box, Button, Stack, TextField, Typography } from '@mui/material';
+import { fetchData } from '../utils/FetchData';
 
 const SearchExercises = () => {
   const [search, setSearch] = useState('')
 
-// const handleSearch = async
+const handleSearch = async () => {
+  if (search) {
+    const exercisesData = await fetchData();
+  }
+}
 
   return (
     <Stack alignItems='center' mt='37px' justifyContent='center' p='20px'>
@@ -30,7 +35,7 @@ const SearchExercises = () => {
             position: 'absolute',
             right: '0'
           }}
-          // onClick={handleSearch}
+          onClick={handleSearch}
           >Search</Button>
       </Box>
     </Stack>
