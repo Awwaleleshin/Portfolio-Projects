@@ -7,12 +7,12 @@ import { exerciseOptions, fetchData } from '../utils/FetchData';
 const SearchExercises = () => {
   const [search, setSearch] = useState('')
 
-// const handleSearch = async () => {
-//   if (search) {
-//     const exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
-//   }
-//   console.log(exercisesData)
-// }
+const handleSearch = async () => {
+  if (search) {
+    const exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
+  }
+  console.log(exercisesData)
+}
 
   return (
     <Stack alignItems='center' mt='37px' justifyContent='center' p='20px'>
