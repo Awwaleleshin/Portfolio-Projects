@@ -62,6 +62,10 @@ const handleSearch = async () => {
           onClick={handleSearch}
           >Search</Button>
       </Box>
+
+      <Box sx={{position: 'relative', width: '100%', p:'20px'}}>
+        
+      </Box>
     </Stack>
   )
 }
