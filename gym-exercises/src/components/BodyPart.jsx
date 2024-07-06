@@ -20,7 +20,8 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
             gap: '47px'
             }}
     >
-        <img src={icon} alt="dumbell" style={{width: '40px', height: '40px'}} />
+        <img src={icon} alt="dumbell" 
+        style={{width: '40px', height: '40px'}} />
     </Stack>
   )
 }
