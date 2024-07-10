@@ -18,7 +18,9 @@ const Excercises = ({ exercises, setExercises, bodyPart}) => {
         sx={{ gap: { lg: '110px', xs: '50px'}}}
         flexWrap='wrap' justifyContent='center'
       >
-
+        {exercises.map((exercise, index) => (
+          exercise.name
+        ))}
       </Stack>
     </Box>
   )
