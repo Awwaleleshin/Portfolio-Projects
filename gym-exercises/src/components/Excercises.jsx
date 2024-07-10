@@ -19,7 +19,7 @@ const Excercises = ({ exercises, setExercises, bodyPart}) => {
         flexWrap='wrap' justifyContent='center'
       >
         {exercises.map((exercise, index) => (
-          exercise.name
+          <p>{exercise.name}</p>
         ))}
       </Stack>
     </Box>
