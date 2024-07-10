@@ -6,7 +6,15 @@ import { exerciseOptions, fetchData } from '../utils/FetchData'
 
 const Excercises = ({ exercises, setExercises, bodyPart}) => {
   return (
-    <div>Excercises</div>
+    <Box id='exercises'
+      sx={{mt: { l: '110px'}}}
+      mt='50px'
+      p='20px'
+    >
+      <Typography>
+        Showing Results
+      </Typography>
+    </Box>
   )
 }
 
